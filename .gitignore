@@ -2,6 +2,9 @@
 .project
 .settings/
 target/
+.gradle/
+build/*
+*/build/*
 
 # Exclude OS X folder attributes
 .DS_Store

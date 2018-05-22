@@ -1,0 +1,4 @@
+rootProject.name = 'backelite-swift'
+include ':backelite-sonar-swift-plugin'
+
+project(':backelite-sonar-swift-plugin').projectDir = "$rootDir/sonar-swift-plugin" as File

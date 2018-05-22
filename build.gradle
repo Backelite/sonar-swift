@@ -1,0 +1,4 @@
+allprojects {
+    group = 'com.backelite.sonarqube'
+    version = '0.3.5'
+}
