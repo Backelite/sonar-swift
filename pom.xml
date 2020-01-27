@@ -263,7 +263,8 @@
                     </properties>
                     <excludes>
                         <exclude>**/README</exclude>
-                        <exclude>**/*/sh</exclude>
+                        <exclude>**/*/run-sonar-swift.sh</exclude>
+                        <exclude>**/*/sonar.rb</exclude>
                         <exclude>src/test/resources/**</exclude>
                         <exclude>src/main/resources/**</exclude>
                     </excludes>
