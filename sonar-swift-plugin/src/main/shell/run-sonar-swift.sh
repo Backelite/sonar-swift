@@ -312,7 +312,7 @@ if [[ "$workspaceFile" != "" ]] ; then
 else
     buildCmd+=(-project "$projectFile")
 fi
-buildCmd+=(-scheme $appScheme)
+buildCmd+=(-scheme "$appScheme")
 if [[ ! -z "$destinationSimulator" ]]; then
     buildCmd+=(-destination "$destinationSimulator" -destination-timeout 360 COMPILER_INDEX_STORE_ENABLE=NO)
 fi
